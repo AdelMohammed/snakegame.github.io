@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>you got rickrolled</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script>
+        var audio = document.createElement("audio");
+        audio.load()
+        audio.autoplay = true;
+        audio.play();
+        audio.setAttribute("src","rick-roll-scloudtomp3downloader (mp3cut.net).mp3");        
+        audio.addEventListener('ended', function() {
+            this.currentTime = 0;
+            this.play();
+        }, false);
+    </script>
+</head>
+<body>
+    <p class = "d-flex justify-content-center" style = "font-size: 5em;">YOU GOT RICKROLLED!!</p>
+    <div class = "d-flex justify-content-center">
+    <video autoplay muted loop preload="auto">
+        <source id = "autoplay" src = "0DQQTAv.mp4"/> 
+    </video>
+</div>
+</body>
+</html>
